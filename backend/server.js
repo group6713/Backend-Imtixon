@@ -55,3 +55,6 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`Server ${PORT}-portda ishga tushdi`);
 });
+
+// Telegram bot
+require('./bot');
